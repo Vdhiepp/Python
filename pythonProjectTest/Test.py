@@ -1,5 +1,9 @@
 print("Hello world!")
-print('\\ Hello world!')
-print('\' Hello world!')
-print('\t Hello world!')
-print('\n Hello world!')
+print('\\')
+print('\'')
+print('\t')
+print('\n')
+for i in range(1, 101):
+    print(i)
+    if i % 10 == 0:
+        print()
