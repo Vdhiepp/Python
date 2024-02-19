@@ -1,3 +1,5 @@
 print("Hello world!")
-print("\\")
-print("\'")
+print('\\ Hello world!')
+print('\' Hello world!')
+print('\t Hello world!')
+print('\n Hello world!')
