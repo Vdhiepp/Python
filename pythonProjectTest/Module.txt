@@ -9,3 +9,8 @@ import from my_lib import function
 
 import <package_name>.<module_name> import <function_name>
                                     import *  #all
+
+if __name__ == '__main__':
+    <lệnh>
+
+#Phạm vi của biến trong Python
