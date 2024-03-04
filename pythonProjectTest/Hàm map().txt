@@ -1,0 +1,3 @@
+- Áp dụng lời gọi hàm lên 1 danh sách đối số
+- Cú pháp:
+            map(fun-name , Heration)
