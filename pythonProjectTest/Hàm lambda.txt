@@ -1,0 +1,4 @@
+- Hàm không có tên
+- Chỉ có 1 dòng lệnh
+- Cú pháp:
+        lambda arguments : expression
