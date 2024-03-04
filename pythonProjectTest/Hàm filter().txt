@@ -1,0 +1,3 @@
+- Lọc các phần tử trong danh sách thỏa điều kiện được định nghĩa bởi hàm
+- Cú pháp:
+            filter(func_name, iteration)
