@@ -14,3 +14,7 @@ def Square(x):
 b = map(Square, a)
 b = list(b)
 print(b)
+
+#Cách 3: Dùng hàm map và lambda
+b = list(map(lambda x:x**2,a))
+print(b)
