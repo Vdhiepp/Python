@@ -9,6 +9,8 @@ while True:
         print("Số tiền không thỏa mãn.")
     else:
         break
+##Lưu lại số tiền m
+m1 = m
 ##a, Tìm phương án tốt nhất
 ### Cách làm: ưu tiên rút mệnh giá cao trước
 soTo100 = m // 100  #chia lấy phần nguyên
@@ -20,3 +22,14 @@ soTo5 = m // 5
 print("Phương án rút tiền tốt nhất: ")
 print("{} tờ 100 + {} tờ 20 + {} tờ 5.".format(soTo100,soTo20,soTo5))
 
+##b,
+m = m1
+count = 0
+for soTo100 in range(m // 100+1):
+    for soTo20 in range(m // 20+1):
+        for soTo5 in range(m // 5+1):
+            if soTo100*100 + soTo20*20 + soTo5*5 == m:
+                count += 1
+                print("{}: {} () tờ 100 + {} () tờ 20 + {} () tờ 5 ".
+                      format(count,soTo100,soTo20,soTo5))
+print("Có tất cả {} cách rút".format(count))
