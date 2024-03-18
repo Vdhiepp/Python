@@ -1,0 +1,29 @@
+1. Các khái niệm cơ bản về OOP
+* Phương pháp LT HĐT: 
++ Dựa trên cách tiếp cận HĐT
++ 2 khía cạnh cơ bản của LT HĐT: Lớp & Đối tượng
+    Đối tượng (object) là một thể hiện (instance) được tạo ra từ một Lớp
+    Lớp là một bản thiết kế (blueprint) để từ đó các đối tượng được tạo ra
+
+* 4 đặc trưng cơ bản của LT HĐT:
+    1. Trừu tượng hóa (abstraction)
+    2. Bao đóng (encapsulation)
+    3. Thừa kế (Inheritance)
+    4. Đa hình (Polymorphism)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+2. Lập trình HĐT trong Python
+a) Tạo lớp tự định nghĩa
+class <tên_lớp>
+    def __init__(): # constructor
+        <lệnh>
+    # thuộc tính
+    # phương thức
+
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

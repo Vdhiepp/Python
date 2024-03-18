@@ -1,0 +1,6 @@
+Viết CT HĐT = Python để giải quyết bài toán sau:
+Nhập một danh sách các điểm trong mặt phẳng. Mỗi một điểm có tọa độ (x, y)
+a) In ra danh sách điểm và tọa độ
+b) Tìm điểm ở xa gốc tọa độ nhất
+c) Tìm cặp điểm ở gần nhau nhất
+d) Loại bỏ các điểm trùng nhau (nếu có), chỉ giữ lại một điểm
